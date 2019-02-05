@@ -328,6 +328,8 @@ body {
     border-top-right-radius: 3px; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/tomato.gif); }
+    .card__picture--6 {
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(https://cdn-images-1.medium.com/max/1400/1*InTn9bchrE0unbW5j5m00g.png); }
     .card__picture--2 {
       background-image: url(../img/musicweb.gif); }
     .card__picture--3 {
@@ -732,7 +734,10 @@ body {
 
 .section-contact {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(46, 40, 42, 0.5)), url(../../img/john-towner-154060-unsplash.jpg); }
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(46, 40, 42, 0.5)), url(../../img/john-towner-154060-unsplash.jpg);
+  margin-top: -50px;
+}
+  
   @media (max-width: 56.25em) {
     .section-contact {
       padding: 10rem 0; } }
